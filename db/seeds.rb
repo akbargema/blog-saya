@@ -7,5 +7,5 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 10.times do |x|
-    Post.create(title: "Title #{x}",body: "Body #{x}hello word")
+    Post.create(title: "Title = #{x}",body: "Body = hello word #{x}")
 end
